@@ -42,7 +42,7 @@ export default function InfiniteAutoscrollCarousel() {
               <img
                 src={src}
                 alt={`Carousel image ${index + 1}`}
-                className="w-full h-96 object-cover"
+                className="w-full h-44 md:h-96 object-cover"
               />
             </div>
           ))}

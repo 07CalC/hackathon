@@ -7,7 +7,7 @@ export const IndiEvent = () => {
           className="rounded-2xl h-full max-h-96"
         />
       </div>
-      <div className="w-5/6 flex flex-col bg-lavendar p-5 rounded-lg justify-between">
+      <div className="md:w-5/6 flex flex-col bg-lavendar p-5 rounded-lg justify-between">
         <div className="flex">
           <div className="flex flex-col">
             <p className="text-2xl font-bold">The Lavri Show</p>
@@ -27,8 +27,8 @@ export const IndiEvent = () => {
           <p className="text-lg">20th October, 7pm onwards</p>
         </div>
       </div>
-      <div className="w-11/12 flex space-x-5">
-        <div className="w-1/5 flex flex-col justify-start items-start">
+      <div className="md:w-11/12 space-y-6 md:space-y-0 grid md:flex md:space-x-5">
+        <div className="md:w-1/5 flex flex-col justify-start items-start">
           <div className="bg-lavendar flex flex-col p-4 rounded-lg">
             <p className="text-2xl text-center font-bold">Artist</p>
             <div className="flex p-4 space-x-6 justify-center items-center">
@@ -54,7 +54,7 @@ export const IndiEvent = () => {
             </div>
           </div>
         </div>
-        <div className="w-4/5 flex flex-col bg-lavendar p-5 rounded-lg justify-between">
+        <div className="md:w-4/5 flex flex-col bg-lavendar p-5 rounded-lg justify-between">
           <p className="text-x font-bold">Description</p>
           <p className="text-lg ">
             Design or develop a website or mobile application dedicated to
@@ -77,16 +77,16 @@ export const IndiEvent = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col space-y-5 justify-center items-center bg-lavendar p-4 rounded-xl w-5/6">
+      <div className="flex flex-col space-y-5 justify-center items-center bg-lavendar p-4 rounded-xl md:w-5/6">
         <p className="text-3xl font-bold">---- Route to Fun ---</p>
         <img src="https://res.cloudinary.com/dkhymc3li/image/upload/v1729403989/Screenshot_2024-10-20_112849_llhmfq.png" />
       </div>
-      <div className="flex space-y-5 flex-col justify-center w-11/12 bg-lavendar rounded-xl p-5 items-center">
+      <div className="flex space-y-5 flex-col justify-center md:w-11/12 bg-lavendar rounded-xl p-5 items-center">
         <p className="text-3xl font-bold">Discussion</p>
         <div className="flex w-full justify-between space-x-3  items-center">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCpY5LtQ47cqncKMYWucFP41NtJvXU06-tnQ&s" className="w-[3%] self-end rounded-full" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCpY5LtQ47cqncKMYWucFP41NtJvXU06-tnQ&s" className="md:w-[3%] w-10 h-10 self-end rounded-full" />
             <input className="w-full bg-lavendar text-xl focus:ring-0 border-b-2 placeholder:text-[#1b3c72bc] placeholder:font-light border-text" placeholder="Your Thoughts" />
-            <button className="w-[8%] bg-text rounded-xl text-whitish p-2">Post</button>
+            <button className="md:w-[8%] bg-text rounded-xl text-whitish p-2">Post</button>
             
             
         </div>

@@ -6,10 +6,24 @@ export const AllContext = createContext();
 
 
 export const AllContextProvider = ({ children }) => {
-    const [count, setCount] = useState(0)
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+    const getMe = async () => {
+        const res = await fetch("/api/me", {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            credentials: "include",
+        });
+        const data = await res.json();
+        if (data.user) {
+    }
+}
+
     return (
 
-        <AllContext.Provider value={{count, setCount}} >
+        <AllContext.Provider value={{}} >
             {children}
             </AllContext.Provider>
     )

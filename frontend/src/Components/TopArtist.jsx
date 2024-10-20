@@ -9,7 +9,7 @@ export const TopArtist = () => {
     return(
         <div className="w-full flex flex-col justify-center space-y-6 p-6 items-center bg-lavendar">
             <p className="text-4xl text-text font-bold">Top Artists</p>
-            <div className="flex space-x-5">
+            <div className="md:flex grid space-y-6 md:space-y-0 space-x-5">
             <div className=" flex flex-col justify-center items-center">
                     <img className="w-60 h-60 rounded-full" src="https://images.mid-day.com/images/images/2024/aug/sanamcover_d.jpg"/>
                     <p className="text-2xl font-bold">Sanam</p>

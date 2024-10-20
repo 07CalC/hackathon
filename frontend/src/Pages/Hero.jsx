@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { AllContext } from "../Context/Context";
 import Carousel from "../Components/Corousel";
-import { CityEvents } from "../Components/CItyEvents";
+
 import { Trending } from "../Components/Trending";
 import { SlCalender } from "react-icons/sl";
 import { CiPlay1 } from "react-icons/ci";
